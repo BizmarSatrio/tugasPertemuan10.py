@@ -2,6 +2,8 @@
 # a. Buatlah sebuah Tuple bernama mahasiswa yang berisi 3 data diri Anda: ("Nama", "NIM", "Prodi"). 
 mahasiswa = ("Bizmar Satrio Hutomo","2605060062","Teknologi Informasi")
 print(mahasiswa)
+print()
+
 # b. Tampilkan data NIM dan Prodi ke layar dengan cara mengakses indeksnya.
 print(mahasiswa[1])
 print(mahasiswa[2])
@@ -26,6 +28,8 @@ data_mahasiswa = {
     "prodi":"Teknologi Informasi",
 }
 print(data_mahasiswa)
+print()
+
 # b. Ubah nilai "prodi" menjadi "Sastra Mesin " sekaligus menambahkan key baru "angkatan" dengan nilai 2026. 
 data_mahasiswa.update({"prodi":"Sastra Mesin"})
 data_mahasiswa.update({"angkatan":"2026"})
@@ -47,6 +51,7 @@ keranjang = {
     "anggur":15000,
 }
 print(keranjang)
+print()
 
 # b. Gunakan perulangan untuk menampilkan setiap barang dan harganya dengan format: "Harga apel: Rp 5000" 
 total_belanja = 0
